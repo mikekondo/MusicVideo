@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9534839326CCD724002CF484 /* FusionVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9534839226CCD724002CF484 /* FusionVideoViewController.swift */; };
 		9589DFF626CC978B005521D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589DFF526CC978B005521D7 /* AppDelegate.swift */; };
 		9589DFF826CC978B005521D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589DFF726CC978B005521D7 /* SceneDelegate.swift */; };
-		9589DFFA26CC978B005521D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589DFF926CC978B005521D7 /* ViewController.swift */; };
 		9589DFFD26CC978B005521D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9589DFFB26CC978B005521D7 /* Main.storyboard */; };
 		9589DFFF26CC978B005521D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9589DFFE26CC978B005521D7 /* Assets.xcassets */; };
 		9589E00226CC978B005521D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9589E00026CC978B005521D7 /* LaunchScreen.storyboard */; };
+		9589E00E26CC99BA005521D7 /* SwiftyRecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589E00D26CC99BA005521D7 /* SwiftyRecordButton.swift */; };
+		9589E01026CC99C0005521D7 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589E00F26CC99C0005521D7 /* LoadingView.swift */; };
+		9589E01226CC9A1E005521D7 /* MusicSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589E01126CC9A1E005521D7 /* MusicSelectViewController.swift */; };
+		9589E01426CC9C91005521D7 /* MusicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589E01326CC9C91005521D7 /* MusicModel.swift */; };
+		9589E01826CCA613005521D7 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9589E01726CCA613005521D7 /* EditViewController.swift */; };
+		95AFB4FF26CCAF1F00224B55 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AFB4FE26CCAF1F00224B55 /* CameraViewController.swift */; };
+		CABEAE4C40DA305FDEE8A107 /* Pods_tictok_mikever.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB02266DB8A5C6107F8BEF90 /* Pods_tictok_mikever.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46BD4AC6DD04A78DE51CC5BD /* Pods-tictok_mikever.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tictok_mikever.debug.xcconfig"; path = "Target Support Files/Pods-tictok_mikever/Pods-tictok_mikever.debug.xcconfig"; sourceTree = "<group>"; };
+		9534839226CCD724002CF484 /* FusionVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FusionVideoViewController.swift; sourceTree = "<group>"; };
 		9589DFF226CC978B005521D7 /* tictok_mikever.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tictok_mikever.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9589DFF526CC978B005521D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9589DFF726CC978B005521D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9589DFF926CC978B005521D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9589DFFC26CC978B005521D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9589DFFE26CC978B005521D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9589E00126CC978B005521D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9589E00326CC978B005521D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9589E00D26CC99BA005521D7 /* SwiftyRecordButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyRecordButton.swift; sourceTree = "<group>"; };
+		9589E00F26CC99C0005521D7 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		9589E01126CC9A1E005521D7 /* MusicSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSelectViewController.swift; sourceTree = "<group>"; };
+		9589E01326CC9C91005521D7 /* MusicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicModel.swift; sourceTree = "<group>"; };
+		9589E01726CCA613005521D7 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		95AFB4FE26CCAF1F00224B55 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		A70C5FD9CEA1247697016DFC /* Pods-tictok_mikever.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tictok_mikever.release.xcconfig"; path = "Target Support Files/Pods-tictok_mikever/Pods-tictok_mikever.release.xcconfig"; sourceTree = "<group>"; };
+		FB02266DB8A5C6107F8BEF90 /* Pods_tictok_mikever.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tictok_mikever.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CABEAE4C40DA305FDEE8A107 /* Pods_tictok_mikever.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				9589DFF426CC978B005521D7 /* tictok_mikever */,
 				9589DFF326CC978B005521D7 /* Products */,
+				FB0D6811D6CB0386A10C92B2 /* Pods */,
+				A0B85D412BE530EABB49547B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,62 @@
 		9589DFF426CC978B005521D7 /* tictok_mikever */ = {
 			isa = PBXGroup;
 			children = (
-				9589DFF526CC978B005521D7 /* AppDelegate.swift */,
-				9589DFF726CC978B005521D7 /* SceneDelegate.swift */,
-				9589DFF926CC978B005521D7 /* ViewController.swift */,
-				9589DFFB26CC978B005521D7 /* Main.storyboard */,
-				9589DFFE26CC978B005521D7 /* Assets.xcassets */,
-				9589E00026CC978B005521D7 /* LaunchScreen.storyboard */,
+				9589E00C26CC993B005521D7 /* Model */,
+				9589E00A26CC992C005521D7 /* View */,
+				9589E00926CC9923005521D7 /* Controller */,
 				9589E00326CC978B005521D7 /* Info.plist */,
 			);
 			path = tictok_mikever;
+			sourceTree = "<group>";
+		};
+		9589E00926CC9923005521D7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9589DFF526CC978B005521D7 /* AppDelegate.swift */,
+				9589DFF726CC978B005521D7 /* SceneDelegate.swift */,
+				9589E01126CC9A1E005521D7 /* MusicSelectViewController.swift */,
+				9589E01726CCA613005521D7 /* EditViewController.swift */,
+				95AFB4FE26CCAF1F00224B55 /* CameraViewController.swift */,
+				9534839226CCD724002CF484 /* FusionVideoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9589E00A26CC992C005521D7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9589E00026CC978B005521D7 /* LaunchScreen.storyboard */,
+				9589DFFE26CC978B005521D7 /* Assets.xcassets */,
+				9589DFFB26CC978B005521D7 /* Main.storyboard */,
+				9589E00D26CC99BA005521D7 /* SwiftyRecordButton.swift */,
+				9589E00F26CC99C0005521D7 /* LoadingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9589E00C26CC993B005521D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9589E01326CC9C91005521D7 /* MusicModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0B85D412BE530EABB49547B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB02266DB8A5C6107F8BEF90 /* Pods_tictok_mikever.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB0D6811D6CB0386A10C92B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46BD4AC6DD04A78DE51CC5BD /* Pods-tictok_mikever.debug.xcconfig */,
+				A70C5FD9CEA1247697016DFC /* Pods-tictok_mikever.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9589E00626CC978B005521D7 /* Build configuration list for PBXNativeTarget "tictok_mikever" */;
 			buildPhases = (
+				60E436FF0B1223EB4C9BECF9 /* [CP] Check Pods Manifest.lock */,
 				9589DFEE26CC978B005521D7 /* Sources */,
 				9589DFEF26CC978B005521D7 /* Frameworks */,
 				9589DFF026CC978B005521D7 /* Resources */,
+				31B48F631BA2DFFF77629B4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +200,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		31B48F631BA2DFFF77629B4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tictok_mikever/Pods-tictok_mikever-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-tictok_mikever/Pods-tictok_mikever-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-tictok_mikever/Pods-tictok_mikever-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60E436FF0B1223EB4C9BECF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tictok_mikever-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9589DFEE26CC978B005521D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9589DFFA26CC978B005521D7 /* ViewController.swift in Sources */,
+				9589E01826CCA613005521D7 /* EditViewController.swift in Sources */,
+				9589E00E26CC99BA005521D7 /* SwiftyRecordButton.swift in Sources */,
 				9589DFF626CC978B005521D7 /* AppDelegate.swift in Sources */,
+				9589E01026CC99C0005521D7 /* LoadingView.swift in Sources */,
+				9589E01226CC9A1E005521D7 /* MusicSelectViewController.swift in Sources */,
+				95AFB4FF26CCAF1F00224B55 /* CameraViewController.swift in Sources */,
 				9589DFF826CC978B005521D7 /* SceneDelegate.swift in Sources */,
+				9534839326CCD724002CF484 /* FusionVideoViewController.swift in Sources */,
+				9589E01426CC9C91005521D7 /* MusicModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +399,7 @@
 		};
 		9589E00726CC978B005521D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46BD4AC6DD04A78DE51CC5BD /* Pods-tictok_mikever.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +419,7 @@
 		};
 		9589E00826CC978B005521D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A70C5FD9CEA1247697016DFC /* Pods-tictok_mikever.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
